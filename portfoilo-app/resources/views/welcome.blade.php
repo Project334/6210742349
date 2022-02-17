@@ -19,8 +19,41 @@
       
     </head>
     <body>
-    <figure class="container1">
-        <img src="/pic/profile.jpg""></image>
-    </figure>
+    
+        <header class="container1">
+            <img class="profile" src="/pic/profile.jpg" alt="" width="250" height="250">
+                <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+                <blockquote>
+                <p class="paragraph1">
+                    “My name is James, 20 years old 3rd years Bachelor’s degree 
+                    Software engineering student at Thammasat University, 
+                    Well-versed in the software development lifecycle, 
+                    Web application and Mobile application design and 
+                    development, Project Management Collect software 
+                    requirements, planning project scope. My purpose for 
+                    the internship is to enhance my professional skills, work in 
+                    the real business world, and learn about the company’s 
+                    business process. I am quite a creative thinking, 
+                    be positive, enthusiastic, open-minded person. 
+                    Be loving to keep learnings, and never give up in 
+                    challenging situations.”
+                </p>
+                </blockquote>
+                <div class=name1>
+                <div class="text-sky-500 dark:text-sky-400">
+                    Nattawat Leelakusolvong
+                </div>
+                <div class="text-slate-700 dark:text-slate-500">
+                    Software Engineer,Thammasat University
+                </div>
+                </div>
+                </div>
+        </header>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+        <script src="/js/index.js"></script>
+        
     </body>
+
 </html>

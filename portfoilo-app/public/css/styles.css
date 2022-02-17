@@ -1,3 +1,26 @@
 body {
-    background-color:#714bfc;
+    background-color:#ffffff;
+}
+
+.container1 {
+    display: flex;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.paragraph1 {
+    color: #ffffff; 
+    text-align: left;
+    padding-left: 50px;   
+}
+
+.name1 {
+    color: #ffffff;
+}
+
+.profile {
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20%;
 }
