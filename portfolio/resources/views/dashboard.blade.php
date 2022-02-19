@@ -1,13 +1,8 @@
 <x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('ABOUTJENGAIMLIFE') }}
-        </h2>
-    </x-slot>
-
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<link rel="stylesheet" href="/css/styles.css">
+    
+    <!DOCTYPE html>
+    <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <link rel="stylesheet" href="/css/styles.css">
 
     <head>
         <meta charset="utf-8">
@@ -25,6 +20,7 @@
 
     </head>
     
+
     <body class="dashboardbody">
     
         <header class="container1">
@@ -46,14 +42,14 @@
                     challenging situations.”
                 </p>
                 </blockquote>
-                <div class=name1>
-                <div class="text-sky-500 dark:text-sky-400">
-                    Nattawat Leelakusolvong
-                </div>
-                <div class="text-slate-800 dark:text-sky-400">
-                    Software Engineer,Thammasat University
-                </div>
-                </div>
+                    <div class=name1>
+                        <div class="text-sky-500 dark:text-sky-400">
+                            Nattawat Leelakusolvong
+                        </div>
+                        <div class="text-slate-800 dark:text-sky-400">
+                            Software Engineer,Thammasat University
+                        </div>
+                    </div>
                 </div>
         </header>
 
@@ -62,7 +58,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
         <script src="/js/index.js"></script>
-</html>
-
+    </html>
 
 </x-app-layout>
