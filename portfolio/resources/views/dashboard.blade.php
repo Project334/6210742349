@@ -25,7 +25,7 @@
 
     </head>
     
-    <body>
+    <body class="dashboardbody">
     
         <header class="container1">
             <img class="profile" src="/pic/profile.jpg" alt="" width="250" height="250">
@@ -50,16 +50,12 @@
                 <div class="text-sky-500 dark:text-sky-400">
                     Nattawat Leelakusolvong
                 </div>
-                <div class="text-slate-700 dark:text-slate-500">
+                <div class="text-slate-800 dark:text-sky-400">
                     Software Engineer,Thammasat University
                 </div>
                 </div>
                 </div>
         </header>
-
-        <div class=container2>
-            <H1>Gallery</H1>
-        </div>
 
     </body>
 
