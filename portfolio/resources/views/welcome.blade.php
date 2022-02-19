@@ -44,15 +44,26 @@
                     <li style="--clr:#400080">
                         <a href="#" data-text="ABOUTJENGAIMLIFE">ABOUTJENGAIMLIFE</a>
                     </li>
-                    <li style="--clr:#2c43a0">
-                        <a href="https://www.facebook.com/NattawatLL/" data-text="Facebook">Facebook</a>
-                    </li>
-                    <li style="--clr:#bd0f9a">
-                        <a href="https://www.instagram.com/jengaim/" data-text="Instagram">Instagram</a>
-                    </li>
-                    <li style="--clr:#D30000">
-                        <a href="https://www.youtube.com/c/NwattLL" data-text="Youtube">Youtube</a>
-                    </li>
+                    <div class="facebook">
+                        <img class="fb" src="/pic/facebook.png" alt="facebook logo" width="65" height="65">
+                        <li style="--clr:#2c43a0">
+                            <a href="https://www.facebook.com/NattawatLL/" data-text="Facebook">Facebook</a>
+                        </li>
+                    </div>
+
+                    <div class="instagram">
+                        <img class="ig" src="/pic/ig.png" alt="instagram logo" width="65" height="65">
+                        <li style="--clr:#bd0f9a">
+                            <a href="https://www.instagram.com/jengaim/" data-text="Instagram">Instagram</a>
+                        </li>
+                    </div>
+
+                    <div class="youtube">
+                        <img class="yt" src="/pic/youtube.png" alt="youtube logo" width="65" height="65">
+                        <li style="--clr:#D30000">
+                            <a href="https://www.youtube.com/c/NwattLL" data-text="Youtube">Youtube</a>
+                        </li>
+                    </div>
                     
                 </ul>
             </div>
