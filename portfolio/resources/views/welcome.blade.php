@@ -8,7 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/styles2.css">
 
         <!-- Styles -->
         <style>
@@ -21,12 +21,12 @@
             }
         </style>
     </head>
-    <body class="indexpage bg-gradient-to-r from-violet-300 via-purple-200 to-orange-300 w-full h-full">
-        <div class="welcome bg-gradient-to-r from-violet-300 via-purple-200 to-orange-300 w-full h-full">
+    <body class="indexpage">
+        <div class="welcome">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                        <a href="{{ url('/dashboard') }}" class="dashboardbutton text-sm underline">Dashboard</a>
+                        <a href="{{ url('/dashboard') }}" class="dashboardbutton text-xl underline">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
 
@@ -38,7 +38,27 @@
             @endif
         </div>
         
+        <section>
+            <div class="nav1">
+                <ul>
+                    <li style="--clr:#400080">
+                        <a href="#" data-text="ABOUTJENGAIMLIFE">ABOUTJENGAIMLIFE</a>
+                    </li>
+                    <li style="--clr:#2c43a0">
+                        <a href="https://www.facebook.com/NattawatLL/" data-text="Facebook">Facebook</a>
+                    </li>
+                    <li style="--clr:#bd0f9a">
+                        <a href="https://www.instagram.com/jengaim/" data-text="Instagram">Instagram</a>
+                    </li>
+                    <li style="--clr:#D30000">
+                        <a href="https://www.youtube.com/c/NwattLL" data-text="Youtube">Youtube</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
       
+        
 
     </body>
 </html>
