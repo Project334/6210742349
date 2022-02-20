@@ -13,8 +13,8 @@
                 </div>
 
             <div class="navheader">
-                <a href="{{ url('/dashboard') }}" class="text-xl">{{ __('ABOUTJENGAIMLIFE') }}</a>
-                <a href="{{ url('/task') }}" class="text-xl">{{ __('TASKOFJENGAIM') }}</a>
+                <a href="{{ url('/aboutme') }}" class="text-xl">{{ __('ABOUTJENGAIMLIFE') }}</a>
+                <a href="{{ url('/dashboard') }}" class="text-xl">{{ __('TASKOFJENGAIM') }}</a>
             </div>
 
                 <!-- Navigation Links -->

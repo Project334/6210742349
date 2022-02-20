@@ -4,14 +4,7 @@
 ?>
 <x-app-layout> 
     <x-slot name="header">
-        <h2 style="font-family: 'Courier New', monospace;
-        margin-top: 10px;
-        margin-left: 10px;
-        font-weight: 600;
-        font-size:36px;
-        ">
-            {{ __('Add Task') }}
-        </h2>
+        <h2>{{ __('Add Task') }}</h2>
     </x-slot>
 
     <div class="py-12">
@@ -29,24 +22,7 @@
 
 
                     <div class="form-group">
-                        <button type="submit" style="
-                        
-                        color:#D9534F;
-                        border-radius:10px;
-                        margin-top: 20px;
-                        margin-left:10px;
-                        margin-bottom:10px;
-
-                        padding-left:10px;
-                        padding-right:10px;
-                        padding-top: 5px;
-                        padding-bottom:5px;
-                        
-                        font-family: 'Courier New', monospace;
-                        font-weight: 1000;
-                        font-size:20px;
-                        text-shadow: 1px 1px 1px #FFFFFF;
-                        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);" class="bg-yellow-400">Add Task</button>
+                        <button type="submit">Add Task</button>
                     </div>
                     {{ csrf_field() }}
                 </form>
